@@ -10,7 +10,7 @@ def fractal_stopping_time(x, p=0.7, max_depth=30):
     depth = 0
     while depth < max_depth:
         h = hash01(x, depth)
-        if h <= p:
+        if h >= p:
             break
         x = (2 * x) % 1    # zoom into next dyadic subinterval
         depth += 1
