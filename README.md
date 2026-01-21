@@ -1,4 +1,4 @@
-# Random Number Generator using Fractals and Logistic Maps
+# Random Number Generator using  Random Fractals and Logistic Maps
 
 [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
 [![Build Status](https://img.shields.io/badge/build-passing-brightgreen.svg)](#)
@@ -31,7 +31,7 @@ git clone https://github.com/paulpseudoman/Random-Number-Generator.git
 cd Random-Number-Generator
 ```
 ### Using the repository
-Now you can browse through the codes to understand the working principle, can execute the codes to get desired outputs. The codes can be modified to generate random number in your desired range. You can test how _random_ the numbers really are using [NIST SP 800-22](https://csrc.nist.gov/Projects/Random-Bit-Generation/Documentation-and-Software). A sample of the report provided by the software and the `rngtest.txt` testfile containing 20 bitstreams, each stream containing 1000000 bits is present in this repository
+Now you can browse through the codes to understand the working principle, can execute the codes to get desired outputs. The codes can be modified to generate random number in your desired range. You can test how _random_ the numbers really are using [NIST SP 800-22](https://csrc.nist.gov/Projects/Random-Bit-Generation/Documentation-and-Software). A sample of the report provided by the software and the `rngtest.txt` testfile containing 20 bitstreams, each stream containing 1000000 bits is present in this repository.
 
 ## Verification using STS
 The NIST Statistical Test Suite (STS) is primarily created for linux. One can also use _Windows Subsystem for Linux_ to use this tool. Run the following codes in your linux terminal to get the desired result.
